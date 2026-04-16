@@ -1,9 +1,8 @@
 ## English Translation 🈂️
+### 🚀 Weekend Project: Personal Habit Tracker App
+Overall Project Goal: Build a complete daily habit tracking application to master basic CRUD operations, link tables with the Authentication system (Auth), and implement all of this within a Flutter environment using Clean Architecture and State Management with BLoC or Cubit.
 
 ---
-
-# 🚀 Weekend Project: Personal Habit Tracker App
-Overall Project Goal: Build a complete daily habit tracking application to master basic CRUD operations, link tables with the Authentication system (Auth), and implement all of this within a Flutter environment using Clean Architecture and State Management with BLoC or Cubit.
 
 ## 🛠 Technologies Used
 ### 1. Frontend & App: Flutter
