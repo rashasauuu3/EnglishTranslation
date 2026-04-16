@@ -20,31 +20,31 @@ Students must build the following tables in Supabase and set up the relationship
 
 ### 1.  profiles Table (Optional / Bonus):
 
-* **id (UUID - Primary Key - Foreign Key to auth.users.id)
+* id (UUID - Primary Key - Foreign Key to auth.users.id)
 
-* **username (Text)
+* username (Text)
 
-* **created_at (Timestamp)
+* created_at (Timestamp)
 
 ### 2.  habits Table:
 
-* **id (UUID - Primary Key)
+* id (UUID - Primary Key)
 
-* **title (Text - Habit name)
+* title (Text - Habit name)
 
-* **user_id (UUID - Foreign Key to auth.users.id)
+* user_id (UUID - Foreign Key to auth.users.id)
 
-* **created_at (Timestamp)
+* created_at (Timestamp)
 
 ### 3.  habit_logs Table:
 
-* **id (UUID - Primary Key)
+* id (UUID - Primary Key)
 
-* **habit_id (UUID - Foreign Key to habits.id - Cascade Delete)
+* habit_id (UUID - Foreign Key to habits.id - Cascade Delete)
 
-* **log_date (Date)
+* log_date (Date)
 
-* **is_completed (Boolean - Default: false)
+* is_completed (Boolean - Default: false)
 
 ## 📱 Programming Requirements (Features & UI)
 ### Authentication:
