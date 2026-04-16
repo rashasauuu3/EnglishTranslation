@@ -68,7 +68,7 @@ Next to each habit in the list, provide a button or Checkbox to mark whether the
 ## 🧩 Advanced Technical Challenge (Join Query)
 Instead of making two separate queries (one to fetch habits, and another to fetch logs), the student is required to:
 
-# Write a single Join query in Supabase to fetch the "Habit" along with its "Completion Logs" in one combined list.
+### Write a single Join query in Supabase to fetch the "Habit" along with its "Completion Logs" in one combined list.
 
 * **Hint for students:🎭** Look up how to use foreign tables relationships in the supabase-flutter package to fetch nested data like this: supabase.from('habits').select(', habit_logs()').
 
