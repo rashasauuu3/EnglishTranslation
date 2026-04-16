@@ -1,4 +1,4 @@
-# EnglishTranslation
+# English Translation 🈂️
  Here is the English translation of the project brief, ready to be shared with your students:
 
 ---
